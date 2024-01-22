@@ -3,13 +3,58 @@
     "builds": [
       {
         "src": "Index.html",
-        "use": "@vercel/static"
+        "use": "@vercel/static-build",
+        "config": { "zeroConfig": true }
+      },
+      {
+        "src": "Pages/Blogs.html",
+        "use": "@vercel/static-build",
+        "config": { "zeroConfig": true }
+      },
+      {
+        "src": "Pages/booking.html",
+        "use": "@vercel/static-build",
+        "config": { "zeroConfig": true }
+      },
+      {
+        "src": "Pages/Contact.html",
+        "use": "@vercel/static-build",
+        "config": { "zeroConfig": true }
+      },
+      {
+        "src": "Pages/Login.html",
+        "use": "@vercel/static-build",
+        "config": { "zeroConfig": true }
+      },
+      {
+        "src": "Pages/Menu.html",
+        "use": "@vercel/static-build",
+        "config": { "zeroConfig": true }
+      },
+      {
+        "src": "Pages/Rooms.html",
+        "use": "@vercel/static-build",
+        "config": { "zeroConfig": true }
+      },
+      {
+        "src": "style.css",
+        "use": "@vercel/static-build",
+        "config": { "zeroConfig": true }
+      },
+      {
+        "src": "Script.js",
+        "use": "@vercel/static-build",
+        "config": { "zeroConfig": true }
       }
     ],
     "routes": [
       {
+        "src": "/Images/(.*)",
+        "dest": "/Images/$1"
+      },
+      {
         "src": "/(.*)",
-        "dest": "/Index.html"
+        "dest": "/$1"
       }
     ]
   }
