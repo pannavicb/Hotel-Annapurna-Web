@@ -18,7 +18,6 @@ Welcome to the Annapurna Hotel & Restaurant web project! This open-source applic
   - [Room Booking](#room-booking)
   - [Gallery](#gallery)
 - [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgments](#acknowledgments)
 - [Roadmap](#roadmap)
 - [Contact](#contact)
@@ -106,10 +105,6 @@ Contributions are welcome! To contribute to this project, follow these guideline
 5. Open a pull request.
 
 For more details, see the [Contribution Guidelines](CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
