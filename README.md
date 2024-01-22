@@ -118,7 +118,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Roadmap
 
-See the [open issues](https://github.com/mahendramahara/Hotel-Annapurna-Web/issues) for a list of proposed features, known issues, and upcoming enhancements. Contributions and feedback on the roadmap are highly encouraged.
+See the [open issues](https://annapurna-hotel.netlify.app/) for a list of proposed features, known issues, and upcoming enhancements. Contributions and feedback on the roadmap are highly encouraged.
 
 ## Contact
 
