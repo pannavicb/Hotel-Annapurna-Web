@@ -3,58 +3,29 @@
     "builds": [
       {
         "src": "Index.html",
-        "use": "@vercel/static-build",
-        "config": { "zeroConfig": true }
-      },
-      {
-        "src": "Pages/Blogs.html",
-        "use": "@vercel/static-build",
-        "config": { "zeroConfig": true }
-      },
-      {
-        "src": "Pages/booking.html",
-        "use": "@vercel/static-build",
-        "config": { "zeroConfig": true }
-      },
-      {
-        "src": "Pages/Contact.html",
-        "use": "@vercel/static-build",
-        "config": { "zeroConfig": true }
-      },
-      {
-        "src": "Pages/Login.html",
-        "use": "@vercel/static-build",
-        "config": { "zeroConfig": true }
-      },
-      {
-        "src": "Pages/Menu.html",
-        "use": "@vercel/static-build",
-        "config": { "zeroConfig": true }
-      },
-      {
-        "src": "Pages/Rooms.html",
-        "use": "@vercel/static-build",
-        "config": { "zeroConfig": true }
+        "use": "@vercel/static"
       },
       {
         "src": "style.css",
-        "use": "@vercel/static-build",
-        "config": { "zeroConfig": true }
+        "use": "@vercel/static"
       },
       {
         "src": "Script.js",
-        "use": "@vercel/static-build",
-        "config": { "zeroConfig": true }
+        "use": "@vercel/static"
       }
     ],
     "routes": [
       {
-        "src": "/Images/(.*)",
-        "dest": "/Images/$1"
+        "src": "/(.*)",
+        "dest": "/Index.html"
       },
       {
         "src": "/(.*)",
-        "dest": "/$1"
+        "dest": "/style.css"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "/Script.js"
       }
     ]
   }
